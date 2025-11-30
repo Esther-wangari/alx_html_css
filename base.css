@@ -1,0 +1,39 @@
+cd alx_html_css
+mkdir css_basic
+
+
+cp html_basic/index.html css_basic/
+cp html_basic/tweets.html css_basic/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Page</title>
+
+    <link href="base.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+   
+<body>
+    <p>This is my ALX HTML project</p>
+</body>
+</html>
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #161616;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 30px;
+}
+
+a {
+    color: #161616;
+}
+
