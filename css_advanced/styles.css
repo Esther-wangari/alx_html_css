@@ -1,0 +1,158 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header / Navigation */
+header {
+  background-color: #fff;
+  padding: 20px 50px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav img {
+  width: 100px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #007BFF;
+}
+
+/* Main sections */
+main section {
+  padding: 50px;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+main section h1,
+main section h2,
+main section h3,
+main section h4 {
+  margin-bottom: 20px;
+}
+
+main section p {
+  margin-bottom: 15px;
+}
+
+/* Hero Section */
+section div:first-child h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+section div:first-child span {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #007BFF;
+}
+
+section div:first-child button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+section div:first-child button:hover {
+  background-color: #0056b3;
+}
+
+/* Tutorials / Cards */
+main section div div {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+main section div div div {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 220px;
+}
+
+main section div div div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Stars */
+.fa-star {
+  color: gold;
+  margin-right: 3px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 50px;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer section img {
+  width: 80px;
+}
+
+footer section i {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+footer section i:hover {
+  color: #007BFF;
+}
+
+footer p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+
+
+   
